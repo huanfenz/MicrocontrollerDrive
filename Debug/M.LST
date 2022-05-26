@@ -1,0 +1,38 @@
+C51 COMPILER V9.00   M                                                                     07/02/2017 09:51:25 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE M
+OBJECT MODULE PLACED IN M.OBJ
+COMPILER INVOKED BY: D:\Keil4\C51\Bin\C51.exe M.c DB OE
+
+line level    source
+
+   1          #define _M_C_
+   2          #include "m.h"
+   3          #include "d.h"
+   4          #include "isr.h"
+   5          
+   6          void main()
+   7          {
+   8   1              init();
+   9   1              inituart();
+  10   1              initadc();
+  11   1              initlcd(0);
+  12   1      // ‰»Î≥Ã–Ú¥˙¬Î
+  13   1      }
+  14          
+  15          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     14    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
